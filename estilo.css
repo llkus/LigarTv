@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.tv {
+    width: 300px;
+    height: 200px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-right: 50px;
+}
+
+.screen {
+    width: 280px;
+    height: 180px;
+    background-color: #000;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.remote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
